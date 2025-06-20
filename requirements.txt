@@ -1,0 +1,18 @@
+Flask>=2.2 # Use a recent stable version
+python-dotenv>=1.0
+requests>=2.28
+# Choose one of the following unstructured installs:
+# unstructured # Basic install
+unstructured[local-inference]>=0.10 # Installs more local dependencies (recommended)
+openai>=0.28 # Check compatibility with your Azure setup if needed
+chromadb>=0.4.15 # Or the latest stable version
+Werkzeug>=2.2 # Usually installed with Flask
+pydantic>=1.10 # For request/response models
+gunicorn # WSGI server for production
+# Add specific parsers if needed and not covered by [local-inference], e.g.:
+# pdfminer.six
+# python-docx
+# python-pptx
+# pypandoc # Often needed for .doc files
+# Add sentence-transformers if using DefaultEmbeddingFunction fallback:
+# sentence-transformers

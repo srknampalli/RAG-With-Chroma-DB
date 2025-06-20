@@ -1,0 +1,50 @@
+# Environment variables
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Temporary files and logs
+tmp/
+*.log
+logs/
+
+# Databases / Storage
+chromadb/
+*.db
+*.sqlite3
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts / Distribution
+build/
+dist/
+*.egg-info/
+downloads/
+htmlcov/
+.pytest_cache/
+.tox/
